@@ -1,0 +1,111 @@
+.button {
+
+}
+
+#my_logo {
+	display: block;
+	padding: 30px;
+	text-align:center;
+}
+
+#sg_logo {
+	display: none;
+	padding: 30px;
+	text-align:center;
+}
+
+#page-wrap, #content {
+    width: 100%;
+	display:inline;
+    position:relative;
+    float:left;
+	text-align:center;
+}
+
+img:hover {  
+	box-shadow: 0 0 0px #333;
+	-webkit-box-shadow: 0 0 10px #333;
+	-moz-box-shadow: 0 0 10px #333;
+	-o-box-shadow: 0 0 10px #333;
+	-ms-box-shadow: 0 0 10px #333;
+	cursor:pointer;
+}
+
+.button_register_my {
+  background: #303030;
+  background-image: -webkit-linear-gradient(top, #303030, #007bff);
+  background-image: -moz-linear-gradient(top, #303030, #007bff);
+  background-image: -ms-linear-gradient(top, #303030, #007bff);
+  background-image: -o-linear-gradient(top, #303030, #007bff);
+  background-image: linear-gradient(to bottom, #303030, #007bff);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+   }
+   
+.button_register_my:hover {
+  background: #000000;
+  background-image: -webkit-linear-gradient(top, #000000, #0065c9);
+  background-image: -moz-linear-gradient(top, #000000, #0065c9);
+  background-image: -ms-linear-gradient(top, #000000, #0065c9);
+  background-image: -o-linear-gradient(top, #000000, #0065c9);
+  background-image: linear-gradient(to bottom, #000000, #0065c9);
+  text-decoration: none;
+   }
+.button_register_my:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   display:hidden;
+   }
+   
+.button_register_sg {
+  background: #2e2e2e;
+  background-image: -webkit-linear-gradient(top, #2e2e2e, #ff0d0d);
+  background-image: -moz-linear-gradient(top, #2e2e2e, #ff0d0d);
+  background-image: -ms-linear-gradient(top, #2e2e2e, #ff0d0d);
+  background-image: -o-linear-gradient(top, #2e2e2e, #ff0d0d);
+  background-image: linear-gradient(to bottom, #2e2e2e, #ff0d0d);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+   }
+   
+.button_register_sg:hover {
+  background: #000000;
+  background-image: -webkit-linear-gradient(top, #000000, #a81212);
+  background-image: -moz-linear-gradient(top, #000000, #a81212);
+  background-image: -ms-linear-gradient(top, #000000, #a81212);
+  background-image: -o-linear-gradient(top, #000000, #a81212);
+  background-image: linear-gradient(to bottom, #000000, #a81212);
+  text-decoration: none;
+   }
+.button_register_sg:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   display:hidden;
+   }
+
+.register_word{
+font-weight: bold;
+font-size: 20px;
+}
+
+.event_word{
+font-size: 12px;
+}
+
+.register_thing{
+text-align: center;
+}
